@@ -37,11 +37,11 @@ uvicorn learning_fast_api.app:app --reload
 
 ## Docs (from Swagger)
 
-open http://127.0.0.1:8000/docs
+open ```http://127.0.0.1:8000/docs```
 
 ## Docs (from Redoc)
 
-open http://127.0.0.1:8000/redoc
+open ```http://127.0.0.1:8000/redoc```
 
 
 ## Deactivate virtual enviroment (OPTIONAL)
