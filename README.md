@@ -34,7 +34,6 @@ poetry install
 
 ``` 
 task run_app
-
 ```
 
 ## Docs (from Swagger)
@@ -48,9 +47,9 @@ open ```http://127.0.0.1:8000/redoc```
 
 ## Linters
 
-Run ```task lint ``` to find errors syntax, good pratices, formatted and
+Run ```task lint``` to find errors syntax, good pratices, formatted and
 
-Run ```task format  ``` to find errors from formatted
+Run ```task format``` to find errors from formatted
 
 ## Tests
 
