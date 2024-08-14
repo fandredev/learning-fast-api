@@ -7,8 +7,10 @@
 - [pipx](https://github.com/pypa/pipx)
 - [asdf](https://asdf-vm.com/)
 - [uvicorn](https://www.uvicorn.org/)
+- [ruff](https://docs.astral.sh/ruff/)
+- [pytest](https://docs.pytest.org/en/stable/)
+- [taskipy](https://github.com/taskipy/taskipy)
 
-<br>
 
 ## Authors
 - [Me](https://www.linkedin.com/in/devfandre/)
@@ -31,7 +33,7 @@ poetry install
 ## Up server
 
 ``` 
-uvicorn learning_fast_api.app:app --reload
+task run_app
 
 ```
 
@@ -44,7 +46,28 @@ open ```http://127.0.0.1:8000/docs```
 open ```http://127.0.0.1:8000/redoc```
 
 
-## Deactivate virtual enviroment (OPTIONAL)
-``` 
-deactivate
+## Linters
+
+Run ```task lint ``` to find errors syntax, good pratices, formatted and
+
+Run ```task format  ``` to find errors from formatted
+
+## Tests
+
 ```
+task test
+```
+
+## Coverage
+
+```
+task post_test
+```
+
+<p>Open the htmlcov/index.html to see the coverage</p>
+
+
+
+## All commands available
+
+Run ```task --list ``` to see all commands
